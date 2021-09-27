@@ -12,7 +12,8 @@
         android:layout_height="wrap_content"
         android:text="click me"
         tools:layout_editor_absoluteX="153dp"
-        tools:layout_editor_absoluteY="465dp" />
+        tools:layout_editor_absoluteY="465dp"
+        tools:ignore="MissingConstraints" />
 
     <TextView
         android:id="@+id/textView"
@@ -20,5 +21,15 @@
         android:layout_height="31dp"
         android:text="click the below button"
         tools:layout_editor_absoluteX="133dp"
-        tools:layout_editor_absoluteY="266dp" />
+        tools:layout_editor_absoluteY="266dp"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Button"
+        tools:layout_editor_absoluteX="156dp"
+        tools:layout_editor_absoluteY="383dp" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
